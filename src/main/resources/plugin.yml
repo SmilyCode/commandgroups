@@ -1,0 +1,13 @@
+name: CommandGroup
+version: '${project.version}'
+main: smily.animate.AnimatedTaskMain
+api-version: 1.17
+authors: [ Smily ]
+description: This plugin allow player to execute a group of command in an animatable way.
+commands:
+  cmdg:
+    description: Represent a group of command. Create, modify, and execute a group is done with this command.
+  delay:
+    description: Delaying inside a group of command.
+  cancel:
+    description: Delaying inside a group of command.
